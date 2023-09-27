@@ -20,6 +20,23 @@ td {
     height: 100%;
     width: 100%;
 }
+.row-1 {
+    background-color: #11f8f8;
+    color: #F81111;
+    :hover {
+        background-color: #F81111;
+        color: #11f8f8;
+    }
+
+}
+.row-2 {
+    background-color: #f8f811;
+    color: #1111F8;
+    :hover {
+        background-color: #1111F8;
+        color: #11f8f8;
+    }
+}
 
 
 .inner-td, .inner-tr {
