@@ -3,74 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Таблиця з двома рядками</title>
-    <style>
-        /* Стилі для основної таблиці */
-        table {
-            border-collapse: collapse; /* Злиття границь для кращого вигляду */
-            width: 50%;
-            height: 100%;
-        }
-
-        /* Стилі для основних ячеек */
-        td {
-            border: 1px solid #000; /* Додавання границь для основних ячеек */
-            padding: 0; /* Зніміть падінги для основних ячеек */
-        }
-
-        /* Стилі для внутрішніх таблиць */
-        .inner-table {
-            height: 100%;
-            width: 100%; /* Зробіть внутрішні таблиці розміром 100% */
-        }
-
-        /* Стилі для внутрішніх стовпців */
-        .inner-td, .inner-tr {
-            padding: 0; /* Зніміть падінги для внутрішніх стовпців і рядків */
-            height: 100%;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<table border="1">
-    <tr>
-        <td colspan="2">
-            Cell 1
-        </td>
-        <td>
-            <table class="inner-table">
-                <tr>
-                    <td>Cell 2</td>
-                </tr>
-                <tr>
-                    <td>Cell 3</td>
-                </tr>
-            </table>
-        </td>
-        <td>
+<div class="container">
+    <div class="task-1">
+        <table border="1">
+            <tr>
+                <td colspan="2">
+                    Малярчук Тарас Васильович
+                </td>
+                <td>
+                    <table class="inner-table">
+                        <tr>
+                            <td>Малярчук Тарас Васильович</td>
+                        </tr>
+                        <tr>
+                            <td>Малярчук Тарас Васильович</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
 
-            <table class="inner-table">
-                <tr class="inner-tr">
-                    <td class="inner-td">Cell 4</td>
-                    <td class="inner-td">Cell 5</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <table class="inner-table">
-                <tr>
-                    <td>Cell 6</td>
-                </tr>
-                <tr>
-                    <td>Cell 7</td>
-                </tr>
-            </table>
+                    <table class="inner-table">
+                        <tr class="inner-tr">
+                            <td class="inner-td">Малярчук Тарас Васильович</td>
+                            <td class="inner-td">Малярчук Тарас Васильович</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="inner-table">
+                        <tr>
+                            <td>ІС</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                        </tr>
+                    </table>
 
-        </td>
-        <td colspan="1">Cell 8</td>
-        <td colspan="1">Cell 9</td>
-    </tr>
-</table>
+                </td>
+                <td colspan="1">Лабораторна</td>
+                <td colspan="1">2</td>
+                <td>Варіант 11</td>
+            </tr>
+        </table>
+    </div>
+    <div class="task-2">
+        <div class="traffic-light">
+            <div class="red light"></div>
+            <div class="yellow light"></div>
+            <div class="green light"></div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

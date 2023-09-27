@@ -1,3 +1,66 @@
-table, th, td, tr {
-    border: 1px solid black;
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    height: 100%;
+}
+
+td {
+    border: 1px solid #000;
+    padding: 0;
+}
+
+
+.inner-table {
+    height: 100%;
+    width: 100%;
+}
+
+
+.inner-td, .inner-tr {
+    padding: 0;
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+}
+.task-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+}
+.traffic-light {
+    height: 290px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
 }
